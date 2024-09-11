@@ -1,0 +1,7 @@
+{
+	"name": "Unfairness 3.5 Charted",
+	"description": "charted unfairness 3.5",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [255, 0, 0]
+}
