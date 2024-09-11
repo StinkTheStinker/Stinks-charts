@@ -1,6 +1,6 @@
 Stinks charts
 ---------------------------------------------------
-# Hello, this is charts that stinko makes! This only uses JS Engine because it's good. Note that it will have a bit of modified setting to it.
+# Hello, this is charts that stinko makes! This only uses JS Engine because it's good. Note that it will have a bit of modified settings to it.
 
 # List of Currently Charted songs:
 Cheating 3.5 (MoldyGH)
@@ -32,7 +32,8 @@ Jordan Santiago - Helping me on a couple things (i ask him a question, quick not
 Jordan Santiago - Not rendered the charts yet, but possibly will soon.
  - Reason why is because some shaders like the "BlockedGlitchEffect" breaks the game for low end computers, even though that it works fine on Dave and Bambi. Now why can't i render it? I have a Low end pc.
 
-
+Status on render for cheating and unfairness
+not even started
 
 
 
