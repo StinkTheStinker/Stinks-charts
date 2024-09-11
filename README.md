@@ -4,7 +4,7 @@ Stinks charts
 
 # List of Currently Charted songs:
 Cheating 3.5 (MoldyGH)
- Unfairness 3.5 (MoldyGH)
+Unfairness 3.5 (MoldyGH)
 
 # This is usualy made in high effort.
 
