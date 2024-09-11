@@ -30,7 +30,7 @@ Jordan Santiago - Helping me on a couple things (i ask him a question, quick not
 
 ----- Renders the songs -----
 Jordan Santiago - Not rendered the charts yet, but possibly will soon.
- - Reason why is because some shaders like the "BlockedGlitchEffect" breaks the game for low end computers, even though that it works fine on Dave and Bambi
+ - Reason why is because some shaders like the "BlockedGlitchEffect" breaks the game for low end computers, even though that it works fine on Dave and Bambi. Now why can't i render it? I have a Low end pc.
 
 
 
