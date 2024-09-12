@@ -1,5 +1,7 @@
 Stinks charts
 
+Seizure warning! If you are sensitive to it, don't play the game.
+
 If you get a crash with no error, look in scripts and look for the lua talking about it, and change the file type to .txt
 ---------------------------------------------------
 # Hello, this is charts that stinko makes! This only uses JS Engine because it's good. Note that it will have a bit of modified settings to it.
