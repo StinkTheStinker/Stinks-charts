@@ -3,15 +3,20 @@ function onCreate()
 	makeLuaSprite('island','Expunged/unfairIslandThing',800,665)
 	addGlitchEffect('Expunged/scaryBG', 2, 5)
 	makeLuaSprite('darkness','dark',-800,-500)
-
+	makeLuaSprite('vignette','vignette',0,0)
+	
 	addLuaSprite('Expunged/scaryBG',false)
 	scaleObject('Expunged/scaryBG',4,4)
 	addLuaSprite('island',false)
 	scaleObject('island',1.6,1.6)
 	addLuaSprite('darkness',true)
+	addLuaSprite('vignette',true)
+	
 	scaleObject('darkness',3,3)
 
 	setScrollFactor('darkness', 'camHud');
+	setScrollFactor('vignette', 'camHud');
+	setObjectCamera('vignette', 'camHud')
 	setScrollFactor('Expunged/scaryBG', 'camHud');
  	function onUpdate(elapsed)    if curStep == 0 then
 
