@@ -1,3 +1,0 @@
-hello, this is a different version of js engine from stinko. used js's source code.
-
-i can not figure out how to make a new version thingy for the main menu
