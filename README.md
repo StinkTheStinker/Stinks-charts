@@ -7,9 +7,13 @@ If you get a crash with no error, look in scripts and look for the lua talking a
 # Hello, this is charts that stinko makes! This only uses JS Engine because it's good. Note that it will have a bit of modified settings to it.
 
 # List of Currently Charted songs:
+
 Cheating 3.5 (MoldyGH)
+
 Unfairness 3.5 (MoldyGH)
 
+Bot-Trot 3.5 (MoldyGH) - currently being charted
+-------------------------------------------------
 # This is usualy made in high effort.
 
 # Credits:
@@ -20,7 +24,7 @@ Jordan Santiago - Making JS Engine
 
 Stinko - Modifying it a bit, just for this mod
 
------ Songs -----
+----- Mods -----
 
 MoldyGH - Dave and Bambi
 
