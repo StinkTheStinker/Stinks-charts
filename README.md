@@ -14,7 +14,7 @@ Cheating 3.5 (MoldyGH)
 
 Unfairness 3.5 (MoldyGH)
 
-Bot-Trot 3.5 (MoldyGH) - currently being charted
+Bot-Trot 3.5 (MoldyGH)
 
 -------------------------------------------------
 

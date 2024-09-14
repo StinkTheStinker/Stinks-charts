@@ -1,0 +1,50 @@
+{
+	"storyName": "story",
+	"difficulties": "normal, Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		255,
+		0,
+		0
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Cheating",
+			"cheater",
+			[
+				0,
+				100,
+				0
+			]
+		],
+		[
+			"Unfairness",
+			"unfair",
+			[
+				146,
+				0,
+				0
+			]
+		],
+		[
+			"Bot_Trot",
+			"playrobot",
+			[
+				146,
+				133,
+				213
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "story"
+}
