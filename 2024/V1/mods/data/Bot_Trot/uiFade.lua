@@ -3,7 +3,6 @@
 --also, if you want to use this script im fine with it
 
 function onCreate()
-	addBloomEffect('camGame',1,1)
 	makeLuaSprite('fade', image, -500, -500)
 	makeGraphic('fade', 3000, 3000, '000000')
 	setProperty('fade.alpha', 0)
@@ -32,6 +31,7 @@ function onCreate()
 end
 
 function onSongStart()
+	addBloomEffect('camGame',1,1)
 	doTweenAlpha('startfade', 'startfade', 0.3, 17.29, 'linear')
 	noteTweenAlpha('dadStrum', 0, 0, 0.01, 'linear')
 	noteTweenAlpha('dadStrum1', 1, 0, 0.01, 'linear')

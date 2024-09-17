@@ -1,16 +1,20 @@
 {
 	"storyName": "story",
-	"difficulties": "normal, Normal",
+	"difficulties": "normal, old",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		255,
 		0,
 		0
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"Cheating",
@@ -40,11 +44,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "story"
+	"hideStoryMode": true,
+	"weekName": "story",
+	"hiddenUntilUnlocked": false
 }

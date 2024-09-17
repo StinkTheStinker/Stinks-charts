@@ -17,8 +17,14 @@ function onBeatHit()
 		doTweenAlpha('fade', 'i fucking hate', 1, 5.33, 'linear')
 	end
 
-	if curBeat == 672 then
+	if difficulty == 1 and curBeat == 672 then
 		doTweenAlpha('fade', 'i fucking hate', 0, 2.66, 'quartIn')
+	elseif curBeat == 648 then -- this section took so long to fucking do
+		doTweenAlpha('fade', 'i fucking hate', 0.4, 2.66, 'quartIn')
+	end
+	
+	if curBeat == 680 then
+		doTweenAlpha('fade', 'i fucking hate', 0, 0.01, 'quartOut')
 	end
 	
 	if curBeat == 872 then
