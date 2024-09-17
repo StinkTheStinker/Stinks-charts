@@ -1,68 +1,24 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Idle",
-			"indices": []
+			"indices": [],
+			"name": "Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				170,
 				-20
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-49,
-				-171
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-3,
-				30
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-84,
-				-6
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Right",
-			"indices": []
-		},
-		{
-			"offsets": [
-				170,
-				-20
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT-alt",
 			"indices": [],
 			"name": "Left"
 		},
@@ -73,7 +29,7 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singDOWN-alt",
+			"anim": "singDOWN",
 			"indices": [],
 			"name": "Down"
 		},
@@ -84,7 +40,7 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singUP-alt",
+			"anim": "singUP",
 			"indices": [],
 			"name": "Up"
 		},
@@ -95,9 +51,53 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT-alt",
+			"anim": "singRIGHT",
 			"indices": [],
 			"name": "Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				170,
+				-20
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				-171
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				30
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-84,
+				-6
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -108,23 +108,23 @@
 	],
 	"no_antialiasing": true,
 	"image": "characters/expunged/bambi_3d",
-	"shake_duration": 0,
+	"shake_duration": 0.01,
 	"position": [
 		20,
 		70
 	],
 	"health_drain": true,
-	"shake_intensity": 0,
+	"shake_intensity": 0.0005,
 	"healthicon": "cheater",
-	"shake_screen": false,
-	"drain_floor": 0.03,
+	"shake_screen": true,
+	"drain_floor": 0.08,
 	"flip_x": false,
 	"healthbar_colors": [
 		40,
 		200,
 		40
 	],
-	"drain_amount": 0.02,
+	"drain_amount": 0.005,
 	"camera_position": [
 		70,
 		20
