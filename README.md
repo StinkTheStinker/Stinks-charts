@@ -10,7 +10,7 @@ If you get a crash with no error, look in scripts and look for the lua talking a
 
 # List of Currently Charted songs:
 
-Cheating 3.5 (MoldyGH)
+Cheating 3.5 (MoldyGH) - Quick note, im keeping the non-updated mix (not the cd), because the snare.
 
 Unfairness 3.5 (MoldyGH)
 
