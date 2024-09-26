@@ -17,7 +17,8 @@ function onCreatePost()
 
     UpperBar = getProperty('UpperBar(No HUD).y')
 	LowerBar = getProperty('LowerBar(No HUD).y')
-
+	setProperty('UpperBar(No HUD).alpha', 0)
+	setProperty('LowerBar(No HUD).alpha', 0)
     for Notes = 0,7 do 
         StrumY = getPropertyFromGroup('strumLineNotes', Notes, 'y')
     end
