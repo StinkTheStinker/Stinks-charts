@@ -1,12 +1,29 @@
 --noteTweenAlpha(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 --above is just notes
 --also, if you want to use this script im fine with it
+HudAssets = {'healthBarBG','healthBar','scoreTxt','iconP1','iconP2','timeBar','timeBarBG','timeTxt'}
+Index = 1
+function onCreate()
+	--debugPrint('fucker')
+	makeLuaSprite('i fucking hate', image, -500, -500)
+	makeGraphic('i fucking hate', 3000, 3000, '000000')
+	setProperty('i fucking hate.alpha', 0)
+	addLuaSprite('i fucking hate', true)
+	setObjectCamera('i fucking hate', 'camGame')
+	makeLuaSprite('i fucking hate-bg', image, -500, -500)
+	makeGraphic('i fucking hate-bg', 3000, 3000, '000000')
+	setProperty('i fucking hate-bg.alpha', 0)
+	addLuaSprite('i fucking hate-bg', false)
+	setObjectCamera('i fucking hate-bg', 'camGame')
+end
+function onCreatePost()
+	noteTweenY('dadStrum', 0, -23450, 0.01, 'linear')
+	noteTweenY('dadStrum1', 1, -23450, 0.01, 'linear')
+	noteTweenY('dadStrum2', 2, -23450, 0.01, 'linear')
+	noteTweenY('dadStrum3', 3, -23450, 0.01, 'linear')
+end
 function onStepHit()
 	if curStep == 1 then -- notes fade out
-		noteTweenAlpha('dadStrum', 0, 0, 1, 'linear')
-		noteTweenAlpha('dadStrum1', 1, 0, 1.5, 'linear')
-		noteTweenAlpha('dadStrum2', 2, 0, 2, 'linear')
-		noteTweenAlpha('dadStrum3', 3, 0, 2.5, 'linear')
 		noteTweenAlpha('bfStrum', 4, 0, 1, 'linear')
 		noteTweenAlpha('bfStrum1', 5, 0, 1.5, 'linear')
 		noteTweenAlpha('bfStrum2', 6, 0, 2, 'linear')
@@ -86,6 +103,7 @@ function onStepHit()
 	end
 	
 	if curStep == 3008 then
-		doTweenAlpha('fade', 'i fucking hate', 1, 8, 'linear')
+		doTweenAlpha('fade', 'i fucking hate-bg', 1, 9.14, 'linear')
+		doTweenZoom('cam','camGame',0.65,10,'linear')
 	end
 end 

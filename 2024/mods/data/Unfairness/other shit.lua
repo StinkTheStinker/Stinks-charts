@@ -17,8 +17,6 @@ function onCreate()
 	makeLuaText('watermark', "ghost tapping is forced off, fuck you", 0, 20, 140);
 		setTextSize('watermark', 16);
 		addLuaText('watermark');
-		
-		
 
 		setProperty('dad.alpha', 0);
 		setProperty('iconP2.alpha', 0)
