@@ -1,0 +1,20 @@
+Uncaught Error: Null Object Reference
+flixel/animation/FlxAnimation.getCurrentFrameDuration() [line 239]
+flixel/animation/FlxAnimation.update() [line 206]
+flixel/animation/FlxAnimationController.update() [line 100]
+flixel/FlxSprite.updateAnimation() [line 766]
+flixel/FlxSprite.update() [line 758]
+Character.update() [line 358]
+flixel/group/FlxGroup.update() [line 151]
+flixel/group/FlxGroup.update() [line 151]
+flixel/addons/ui/FlxUIState.update() [line 212]
+MusicBeatState.update() [line 115]
+editors/CharacterEditorState.update() [line 1407]
+flixel/FlxState.tryUpdate() [line 239]
+flixel/FlxGame.update() [line 749]
+flixel/FlxGame.step() [line 679]
+flixel/FlxGame.onEnterFrame() [line 558]
+openfl/events/EventDispatcher.__dispatchEvent() [line 426]
+openfl/display/DisplayObject.__dispatch() [line 1398]
+Please report this error to the GitHub page: https://github.com/JordanSantiagoYT/FNF-JS-Engine
+The engine has saved a crash log inside the crash folder, If you're making a GitHub issue you might want to send that!
