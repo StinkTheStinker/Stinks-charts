@@ -16,6 +16,10 @@ Unfairness 3.5 (MoldyGH)
 
 Bot-Trot 3.5 (MoldyGH)
 
+Cheating 3.5 (MoldyGH, CD mix) - Quick note, im keeping the non-updated mix (not the cd), because the snare.
+
+Unfairness 3.5 (MoldyGH, CD mix)
+
 -------------------------------------------------
 
 # This is usualy made in high effort.
