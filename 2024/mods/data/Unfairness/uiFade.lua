@@ -104,6 +104,5 @@ function onStepHit()
 	
 	if curStep == 3008 then
 		doTweenAlpha('fade', 'i fucking hate-bg', 1, 9.14, 'linear')
-		doTweenZoom('cam','camGame',0.65,10,'linear')
 	end
 end 

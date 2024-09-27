@@ -15,7 +15,6 @@ end
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'timer1' and songName == unfairness then
 		doTweenAlpha('creditsAlpha', 'credits', 0, 5.5, 'linear')	
-		doTweenColor('creditsColor', 'credits', 'DD0000', 0.2, 'quartOut')
 	end
 	if tag == 'timer1' then
 		doTweenAlpha('creditsAlpha', 'credits', 0, 5.5, 'linear')	
