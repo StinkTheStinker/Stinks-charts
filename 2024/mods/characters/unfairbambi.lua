@@ -11,3 +11,7 @@ function onCreatePost()
         end
 end
 end
+
+function opponentNoteHit(id,data,type,sus)
+    triggerEvent('Screen Shake','0.1, 0.004','0.01, 0.004')
+ end

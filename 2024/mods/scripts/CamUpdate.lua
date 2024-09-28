@@ -41,6 +41,37 @@ end
 local oldCam = {0,0};
 function onUpdatePost()
 
+   if followchars and startCam then
+      anim = getProperty('dad.animation.curAnim.name');
+      if mustHitSection and not gfSection then
+         anim = getProperty('boyfriend.animation.curAnim.name');
+      end
+      if gfSection then 
+         anim = getProperty('gf.animation.curAnim.name');
+      end
+
+      if startsWith(anim, "singLEFT") then
+         camOffY = 0;
+         camOffX = 0 - Intensity; -- this
+      end
+      if startsWith(anim, "singRIGHT") then
+         camOffY = 0;
+         camOffX = Intensity;
+      end
+      if startsWith(anim, "singUP") then
+         camOffX = 0;
+         camOffY = 0 - Intensity;
+      end
+      if startsWith(anim, "singDOWN") then
+         camOffX = 0;
+         camOffY = Intensity;
+      end
+      if startsWith(anim, "idle") then
+         camOffX = 0;
+         camOffY = 0;
+      end
+   end
+   
    if followchars and startCam --[[and (camOffX ~= oldCam[1] or camOffY ~= oldCam[2])]] then
       --debugPrint('halo');
       cameraX = getProperty('camFollow.x');
