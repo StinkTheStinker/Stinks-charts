@@ -1,4 +1,4 @@
-Stinks charts
+Please download the latest commit.
 
 Seizure warning! If you are sensitive to it, don't play the game.
 
