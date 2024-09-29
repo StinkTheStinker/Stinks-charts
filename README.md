@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4e8d90c7-725c-4356-a691-8d33e1dfa9a3)Please download the latest commit.
+Please download the latest commit.
 
 Seizure warning! If you are sensitive to it, don't play the game.
 
