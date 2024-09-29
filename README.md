@@ -1,4 +1,4 @@
-Please download the latest commit.
+![image](https://github.com/user-attachments/assets/4e8d90c7-725c-4356-a691-8d33e1dfa9a3)Please download the latest commit.
 
 Seizure warning! If you are sensitive to it, don't play the game.
 
@@ -44,15 +44,11 @@ Stinko - small amount of coding on Haxe, most coding on lua.
 
 Jordan Santiago - Helping me on a couple things (i ask him a question, quick note). 
 
------ Renders the songs -----
-Jordan Santiago - Not rendered the charts yet, but possibly will soon.
- - Reason why is because some shaders like the "BlockedGlitchEffect" breaks the game for low end computers, even though that it works fine on Dave and Bambi. Now why can't i render it? I have a Low end pc.
-
-Status on render for cheating and unfairness
-not even started
-
-
 
 
 # Where the songs came from
-Dave and Bambi 3.5 - Unfairness, and Cheating
+Dave and Bambi 3.5 - Unfairness, Bot-Trot, and Cheating
+
+# Rendered songs
+
+[Cheating 3.5 ](https://www.youtube.com/watch?v=u4VlCOBMNsY)
