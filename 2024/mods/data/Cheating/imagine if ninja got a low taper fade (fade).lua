@@ -5,11 +5,19 @@ function onCreate()
 	setProperty('i fucking hate.alpha', 0)
 	addLuaSprite('i fucking hate', true)
 	setObjectCamera('i fucking hate', 'camGame')
+	setScrollFactor('i fucking hate', 'camHud');
 	makeLuaSprite('i fucking hate-white', image, -500, -500)
 	makeGraphic('i fucking hate-white', 3000, 3000, 'FFFFFF')
 	setProperty('i fucking hate-white.alpha', 0)
 	addLuaSprite('i fucking hate-white', true)
 	setObjectCamera('i fucking hate-white', 'camGame')
+	setScrollFactor('i fucking hate-white', 'camHud');
+	makeLuaSprite('i fucking hate-bg', image, -500, -500)
+	makeGraphic('i fucking hate-bg', 3000, 3000, '000000')
+	setProperty('i fucking hate-bg.alpha', 0)
+	addLuaSprite('i fucking hate-bg', false)
+	setObjectCamera('i fucking hate-bg', 'camGame')
+	setScrollFactor('i fucking hate-bg', 'camHud');
 end
 
 function onBeatHit()
@@ -18,8 +26,8 @@ function onBeatHit()
 	end
 
 	if curBeat == 616 then
-		doTweenAlpha('fade', 'i fucking hate', 0.4, 19, 'linear')
-		setProperty('Expunged/cheater3.alpha', 1)
+		doTweenAlpha('fade', 'i fucking hate', 0.4, 0.01, 'linear')
+		doTweenAlpha('fadebg', 'i fucking hate-bg', 0, 19, 'linear')
 	end
 	
 	if curBeat == 680 then
@@ -38,6 +46,10 @@ function onStepHit()
 	
 	if curStep == 256 then
 		doTweenAlpha('fade2', 'i fucking hate-white', 0, 2, 'linear')
+	end
+	
+	if curStep == 2463 then
+		doTweenAlpha('fadebg', 'i fucking hate-bg', 1, 0.01, 'linear')
 	end
 
 	if curStep == 2714 then

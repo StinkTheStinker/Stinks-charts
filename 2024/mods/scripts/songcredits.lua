@@ -13,10 +13,7 @@ function onStepHit()
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
-	if tag == 'timer1' and songName == unfairness then
-		doTweenAlpha('creditsAlpha', 'credits', 0, 5.5, 'linear')	
-	end
 	if tag == 'timer1' then
-		doTweenAlpha('creditsAlpha', 'credits', 0, 5.5, 'linear')	
+		doTweenAlpha('creditsAlpha', 'credits', 0, 2, 'linear')	
 	end
 end

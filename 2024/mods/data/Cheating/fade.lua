@@ -7,11 +7,11 @@ end
 
 function onStepHit()
 	if curStep == 1956 then
-		doTweenAlpha('bgfade1', 'Expunged/cheater', 0, 5.53)
 		doTweenAlpha('fade', 'i fucking hate', 1, 5)
 	end
 	if curStep == 2060 then
-		doTweenAlpha('bgfade2', 'Expunged/cheater2', 1, 1.33, 'quartOut')
+		doTweenAlpha('bg2', 'Expunged/cheater2', 1, 0.01)
+		doTweenAlpha('bg1', 'Expunged/cheater', 0, 0.01)
 		doTweenAlpha('fade', 'i fucking hate', 0, 4, 'quartOut')
 	end
 end

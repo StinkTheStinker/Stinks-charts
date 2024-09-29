@@ -1,4 +1,4 @@
-Stinks charts
+Please download the latest commit.
 
 Seizure warning! If you are sensitive to it, don't play the game.
 
@@ -10,15 +10,13 @@ If you get a crash with no error, look in scripts and look for the lua talking a
 
 # List of Currently Charted songs:
 
-Cheating 3.5 (MoldyGH) - Quick note, im keeping the non-updated mix (not the cd), because the snare.
+[Cheating 3.5 (MoldyGH)](https://www.youtube.com/watch?v=3M9ao4XMOnI) - Quick note, im keeping the non-updated mix (not the cd), because the snare.
+- [CD mix](https://www.youtube.com/watch?v=47FjwDyywE8)
 
-Unfairness 3.5 (MoldyGH)
+[Unfairness 3.5 (MoldyGH)](https://www.youtube.com/watch?v=lQSxG7S8NHs)
+- [CD mix](https://soundcloud.com/user-874170610/moldygh-unfairness-remake-dave) - Yes, I know, its from soundcloud, that the only one I can find of the CD version of unfairness.
 
-Bot-Trot 3.5 (MoldyGH)
-
-Cheating 3.5 (MoldyGH, CD mix) - Quick note, im keeping the non-updated mix (not the cd), because the snare.
-
-Unfairness 3.5 (MoldyGH, CD mix)
+[Bot-Trot 3.5 (MoldyGH)](https://www.youtube.com/watch?v=6NLf0SSxDH8)
 
 -------------------------------------------------
 
@@ -28,31 +26,30 @@ Unfairness 3.5 (MoldyGH, CD mix)
 
 ----- JS Engine -----
 
-Jordan Santiago - Making JS Engine
+[Jordan Santiago](https://www.youtube.com/@JordanSantiago) - Making JS Engine
 
-Stinko - Modifying it a bit, just for this mod
+[Stinko](https://www.youtube.com/@StinkoTheStupido) - Modifying it a bit, just for this mod
 
 ----- Mods -----
 
-MoldyGH - Dave and Bambi
+[MoldyGH](https://www.youtube.com/@MoldyGangstaHero) - Dave and Bambi
 
 ----- Coding -----
 
-Stinko - small amount of coding on Haxe, most coding on lua.
+[Stinko](https://www.youtube.com/@StinkoTheStupido) - small amount of coding on Haxe, most coding on lua.
 
 ----- Help on the mod -----
 
-Jordan Santiago - Helping me on a couple things (i ask him a question, quick note). 
+[Jordan Santiago](https://www.youtube.com/@JordanSantiago) - Helping me on a couple things. 
 
------ Renders the songs -----
-Jordan Santiago - Not rendered the charts yet, but possibly will soon.
- - Reason why is because some shaders like the "BlockedGlitchEffect" breaks the game for low end computers, even though that it works fine on Dave and Bambi. Now why can't i render it? I have a Low end pc.
-
-Status on render for cheating and unfairness
-not even started
-
+----- Sprites -----
+[Rhythm Apocalypse](https://gamebanana.com/mods/397124) - Cheating Expunged Sprites
 
 
 
 # Where the songs came from
-Dave and Bambi 3.5 - Unfairness, and Cheating
+[Dave and Bambi](https://gamebanana.com/mods/43201) - Unfairness, Bot-Trot, and Cheating
+
+# Rendered songs
+
+[Cheating 3.5 ](https://www.youtube.com/watch?v=u4VlCOBMNsY)

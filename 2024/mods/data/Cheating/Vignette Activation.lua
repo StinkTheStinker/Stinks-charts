@@ -3,12 +3,16 @@ function onCreate()
 	makeLuaSprite('vignette', 'vignette', 0, 0)
 	setProperty('vignette.alpha', 0)
 	addLuaSprite('vignette', true)
-	setObjectCamera('vignette', 'camHUD')
+	setObjectCamera('vignette', 'camHud')
 end
 
 function onStepHit()
-	if curStep == 2719 then
+	if curStep == 2464 then
 		doTweenAlpha('vignettesadfasdafds', 'vignette', 0.5, 2, 'quartOut')
+	end
+
+	if curStep == 2719 then
+		doTweenAlpha('vignettesadfasdafds', 'vignette', 0.75, 2, 'quartOut')
 	end
 
 	if curStep == 2976 then
