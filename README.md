@@ -14,7 +14,7 @@ If you get a crash with no error, look in scripts and look for the lua talking a
 - [CD mix](https://www.youtube.com/watch?v=47FjwDyywE8)
 
 [Unfairness 3.5 (MoldyGH)](https://www.youtube.com/watch?v=lQSxG7S8NHs)
-- [CD mix](https://soundcloud.com/user-874170610/moldygh-unfairness-remake-dave) - Yes, I know, its from soundcloud, that the only one I can find of the CD version of unfairness.
+- [CD mix](https://soundcloud.com/user-874170610/moldygh-unfairness-remake-dave) - Yes, I know, its from soundcloud, thats the only one I can find of the CD version of unfairness.
 
 [Bot-Trot 3.5 (MoldyGH)](https://www.youtube.com/watch?v=6NLf0SSxDH8)
 
