@@ -1,4 +1,4 @@
-Please download the latest commit.
+Click "Code" then click "Download Zip", to play it.
 
 Seizure warning! If you are sensitive to it, don't play the game.
 
