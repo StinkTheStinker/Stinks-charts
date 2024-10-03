@@ -20,6 +20,13 @@ If you get a crash with no error, look in scripts and look for the lua talking a
 
 [Bot-Trot 3.5 (MoldyGH)](https://www.youtube.com/watch?v=6NLf0SSxDH8)
 
+-------------screenshots of the game-------------
+![image](https://github.com/user-attachments/assets/433c409e-41ee-48b9-ab9d-e8312c858844)
+![image](https://github.com/user-attachments/assets/cb981d62-0942-4025-bf95-7bf6d8dafdb1)
+![image](https://github.com/user-attachments/assets/edd72168-b7ae-4989-9c71-a889600c32c5)
+![image](https://github.com/user-attachments/assets/e70ead44-4c5c-4306-ad9a-e9a38ca2776c)
+![image](https://github.com/user-attachments/assets/2a1731ee-689a-4497-aad9-4de7a12ae2f2)
+This section is unfinished currently
 -------------------------------------------------
 
 # This is usualy made in high effort.
