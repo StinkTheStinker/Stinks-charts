@@ -1,0 +1,5 @@
+- Finish cheating and unfairness chart
+- fix up bot-trot chart (possible)
+- make the game mroe better (never gonna happen probably)
+- Make a start visual to unfairness (currently in progress)
+- Change flixel sprites and sounds (done, sound shit is shown in this [tweet](https://x.com/StinkTheStink/status/1842417775769256003))
