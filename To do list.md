@@ -1,4 +1,4 @@
-- Finish cheating and unfairness chart
+- Finish Cheating, Wireframe, and Unfairness chart
 - fix up bot-trot chart (possible)
 - make the game mroe better (never gonna happen probably)
 - Make a start visual to unfairness (currently in progress)
