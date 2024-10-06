@@ -22,8 +22,6 @@ I will change the Game icon to the new chart's opponent icon, cause yes.
 
 [Bot-Trot 3.5 (MoldyGH)](https://www.youtube.com/watch?v=6NLf0SSxDH8)
 
-[Wireframe V4 (Sky!)](https://www.youtube.com/watch?v=bTcrIqR_1fY)
-
 -------------screenshots of the game-------------
 ![image](https://github.com/user-attachments/assets/433c409e-41ee-48b9-ab9d-e8312c858844)
 ![image](https://github.com/user-attachments/assets/cb981d62-0942-4025-bf95-7bf6d8dafdb1)
