@@ -4,6 +4,8 @@ Seizure warning! If you are sensitive to it, don't play the game.
 
 If you get a crash with no error, look in scripts and look for the lua talking about it, and change the file type to .txt
 
+I will change the Game icon to the new chart's opponent icon, cause yes.
+
 [Submit songs here](https://forms.gle/ekGvCRLHdi7D7v1w9)
 
 ---------------------------------------------------
