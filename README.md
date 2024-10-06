@@ -54,6 +54,7 @@ This section is unfinished currently
 [Jordan Santiago](https://www.youtube.com/@JordanSantiago) - Helping me on a couple things. 
 
 ----- Sprites -----
+
 [Rhythm Apocalypse](https://gamebanana.com/mods/397124) - Cheating Expunged Sprites
 
 
