@@ -26,6 +26,8 @@ If you get a crash with no error, look in scripts and look for the lua talking a
 ![image](https://github.com/user-attachments/assets/edd72168-b7ae-4989-9c71-a889600c32c5)
 ![image](https://github.com/user-attachments/assets/e70ead44-4c5c-4306-ad9a-e9a38ca2776c)
 ![image](https://github.com/user-attachments/assets/2a1731ee-689a-4497-aad9-4de7a12ae2f2)
+![image](https://github.com/user-attachments/assets/39746c6f-1a6e-4448-be4d-0fdacd886d9a)
+
 This section is unfinished currently
 -------------------------------------------------
 
