@@ -1,5 +1,5 @@
-- Finish Cheating, Wireframe, and Unfairness chart
+- Finish Cheating, Wireframe (preview is shown in this [tweet](https://x.com/StinkTheStink/status/1842764193990078510)), and Unfairness chart
 - fix up bot-trot chart (possible)
-- make the game mroe better (never gonna happen probably)
-- Make a start visual to unfairness (currently in progress)
+- make the game more better (never gonna happen probably)
+- Make a start visual to unfairness (currently in progress, small preview shown in this [tweet](https://x.com/StinkTheStink/status/1841996844731097459))
 - Change flixel sprites and sounds (done, sound shit is shown in this [tweet](https://x.com/StinkTheStink/status/1842417775769256003))
