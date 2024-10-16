@@ -28,7 +28,6 @@ function onCreate()
 	noteTweenAlpha('bfStrum1', 5, 0, 0.01, 'linear')
 	noteTweenAlpha('bfStrum2', 6, 0, 0.01, 'linear')
 	noteTweenAlpha('bfStrum3', 7, 0, 0.01, 'linear')
-	addBloomEffect('camGame',1,1)
 end
 
 function onSongStart()
@@ -41,6 +40,7 @@ function onSongStart()
 	noteTweenAlpha('bfStrum1', 5, 0, 0.01, 'linear')
 	noteTweenAlpha('bfStrum2', 6, 0, 0.01, 'linear')
 	noteTweenAlpha('bfStrum3', 7, 0, 0.01, 'linear')
+	addBloomEffect('camGame',1,1)
 end
 
 
@@ -101,7 +101,7 @@ function onStepHit()
 	end
 	
 	if curStep == 1664 then
-		addBloomEffect('camGame',1,1)
+		addBloomShader('camGame',1,1)
 		setProperty('Tristan.alpha', 0)
 		setProperty('Tristan2.alpha', 1)
 		doTweenAlpha('fade', 'fade', 0, 21.62, 'linear')

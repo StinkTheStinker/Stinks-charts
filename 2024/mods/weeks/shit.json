@@ -1,20 +1,16 @@
 {
 	"storyName": "story",
-	"difficulties": "normal, old",
+	"difficulties": "normal",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		255,
 		0,
 		0
 	],
-	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"Cheating",
@@ -42,9 +38,31 @@
 				133,
 				213
 			]
+		],
+		[
+			"Wireframe",
+			"decdave",
+			[
+				235,
+				40,
+				60
+			]
+		],
+		[
+			"Algebra_Diamond_Man_Section",
+			"Diamond",
+			[
+				0,
+				80,
+				235
+			]
 		]
 	],
-	"hideStoryMode": true,
-	"weekName": "story",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "story"
 }

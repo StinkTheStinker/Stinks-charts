@@ -1,4 +1,3 @@
 function onCreatePost()
-	setProperty('botplayTxt.x', 720)
-	setProperty('botplayTxt.y', 605)
+		setProperty('botplayTxt.y', 1000000)	
 end

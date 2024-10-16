@@ -14,7 +14,7 @@ function onStepHit()
 end
 
 function onCreate()
-	makeLuaText('watermark', "ghost tapping is forced off, fuck you", 0, 20, 140);
+	makeLuaText('watermark', "Ghost tapping is forced off! Fuck you!", 0, 20, 140);
 		setTextSize('watermark', 16);
 		addLuaText('watermark');
 

@@ -7,8 +7,8 @@ function onCreate()
 end
 
 function onStepHit()
-	if curStep == 2464 then
-		doTweenAlpha('vignettesadfasdafds', 'vignette', 0.5, 2, 'quartOut')
+	if curStep == 2592 then
+		doTweenAlpha('vignettesadfasdafds', 'vignette', 0.5, 6, 'linear')
 	end
 
 	if curStep == 2719 then
@@ -20,6 +20,6 @@ function onStepHit()
 	end
 
 	if curStep == 3232 then
-		doTweenAlpha('vignettesadfasdafds', 'vignette', 0, 1, 'quartOut')
+		doTweenAlpha('vignettesadfasdafds2', 'vignette', 0.4, 4, 'linear')
 	end
 end

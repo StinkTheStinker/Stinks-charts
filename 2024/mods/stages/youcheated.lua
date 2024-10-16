@@ -5,8 +5,8 @@ function onCreate()
 	setScrollFactor('Expunged/cheater', 'camHud');
 	setScrollFactor('Expunged/cheater2', 'camHud');
 	
-	addGlitchEffect('Expunged/cheater', 1.5,4,0.03)
-	addGlitchEffect('Expunged/cheater2', 1.5,4,0.03)
+	addGlitchEffect('Expunged/cheater', 1,5)
+	addGlitchEffect('Expunged/cheater2', 1.5,7)
 
 --settings
 	addLuaSprite('Expunged/cheater',false)
@@ -14,4 +14,6 @@ function onCreate()
 	addLuaSprite('Expunged/cheater2',false)
 	scaleObject('Expunged/cheater2',2,2)
 	setProperty('Expunged/cheater2.alpha', 0)
+	
 end
+
