@@ -20833,7 +20833,7 @@
 		"specialEventsName": "",
 		"songCredit": "MoldyGH",
 		"stage": "youcheated",
-		"needsVoices": true,
+		"needsVoices": false,
 		"bpm": 180
 	}
 }
