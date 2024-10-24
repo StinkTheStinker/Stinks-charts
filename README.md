@@ -55,7 +55,8 @@
 ----------------------------------------------------------------------------------------------------
 
 # Where the songs came from
-[Dave and Bambi](https://gamebanana.com/mods/43201) - Unfairness, Bot-Trot, and Cheating
+[Dave and Bambi](https://gamebanana.com/mods/43201) - Unfairness, Bot-Trot, Splitathon (Upcoming chart), and Cheating
+[D&B: Golden Apple](https://gamebanana.com/mods/343129) - Algebra, Wireframe, and Disability (Upcoming chart)
 
 # Rendered songs
 
