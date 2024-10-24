@@ -86,7 +86,7 @@
 		0
 	],
 	"sing_duration": 6.1,
-	"noteskin": "noteskins/NOTE_assets",
+	"noteskin": null,
 	"winning_colors": [
 		255,
 		255,
