@@ -2985,21 +2985,6 @@
 						0
 					],
 					[
-						66321.4285714286,
-						3,
-						0
-					],
-					[
-						66357.1428571429,
-						1,
-						0
-					],
-					[
-						66428.5714285715,
-						0,
-						0
-					],
-					[
 						66571.4285714286,
 						1,
 						0
@@ -3010,22 +2995,7 @@
 						0
 					],
 					[
-						66464.2857142858,
-						3,
-						0
-					],
-					[
-						66535.7142857143,
-						3,
-						0
-					],
-					[
 						66857.1428571429,
-						2,
-						0
-					],
-					[
-						67000,
 						2,
 						0
 					],
@@ -3040,23 +3010,18 @@
 						0
 					],
 					[
-						66892.8571428572,
-						0,
+						66357.1428571429,
+						2,
 						0
 					],
 					[
-						66964.2857142858,
-						0,
+						66428.5714285715,
+						3,
 						0
 					],
 					[
-						67035.7142857143,
-						0,
-						0
-					],
-					[
-						67107.1428571429,
-						0,
+						66500,
+						2,
 						0
 					],
 					[
@@ -3065,18 +3030,13 @@
 						0
 					],
 					[
+						67000,
+						2,
+						0
+					],
+					[
 						67071.4285714286,
-						3,
-						0
-					],
-					[
-						66500,
 						0,
-						0
-					],
-					[
-						66392.8571428572,
-						3,
 						0
 					]
 				],
@@ -12523,6 +12483,46 @@
 				"bpm": 210
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 210,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 210
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 210,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 210
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -12530,7 +12530,17 @@
 				"bpm": 210,
 				"sectionBeats": 4,
 				"changeBPM": false,
-				"mustHitSection": false
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 210,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
 			}
 		],
 		"player3": null,
@@ -12541,7 +12551,7 @@
 		"validScore": true,
 		"arrowSkin": "",
 		"speed": 3.7,
-		"songCreditIcon": "MoldyGH",
+		"songCreditIcon": "",
 		"specialAudioName": "",
 		"swapStrumLines": false,
 		"gfVersion": "gf",
@@ -12551,8 +12561,8 @@
 				[
 					[
 						"Rainbow Eyesore",
-						"1",
-						"1"
+						"5",
+						""
 					]
 				]
 			],
@@ -15377,42 +15387,12 @@
 				]
 			],
 			[
-				117571.428571429,
+				117500,
 				[
 					[
-						"lyrics",
-						"oh",
-						""
-					]
-				]
-			],
-			[
-				117714.285714286,
-				[
-					[
-						"lyrics",
-						"oh my",
-						""
-					]
-				]
-			],
-			[
-				117857.142857143,
-				[
-					[
-						"lyrics",
-						"oh my god",
-						""
-					]
-				]
-			],
-			[
-				118142.857142857,
-				[
-					[
-						"lyrics",
-						"stop",
-						""
+						"dnbsubs",
+						"Oh my god stop.",
+						"36, 0.02, 1"
 					]
 				]
 			],
@@ -15420,19 +15400,9 @@
 				119428.571428572,
 				[
 					[
-						"lyrics",
-						"mol",
-						""
-					]
-				]
-			],
-			[
-				119642.857142857,
-				[
-					[
-						"lyrics",
-						"moldy",
-						""
+						"dnbsubs",
+						"Moldy.",
+						"36, 0.02, 1"
 					]
 				]
 			],
@@ -15440,79 +15410,29 @@
 				120642.857142857,
 				[
 					[
-						"lyrics",
-						"Is",
-						""
-					]
-				]
-			],
-			[
-				120928.571428572,
-				[
-					[
-						"lyrics",
+						"dnbsubs",
 						"Is a",
-						""
+						"36, 0.02, 0.6"
 					]
 				]
 			],
 			[
-				121610.714285714,
+				121608.928571429,
 				[
 					[
-						"lyrics",
-						"fock",
-						""
+						"dnbsubs",
+						"fucking",
+						"36, 0.02, 0.47"
 					]
 				]
 			],
 			[
-				121857.142857143,
+				122285.714285714,
 				[
 					[
-						"lyrics",
-						"focking",
-						""
-					]
-				]
-			],
-			[
-				122214.285714286,
-				[
-					[
-						"lyrics",
-						"trou",
-						""
-					]
-				]
-			],
-			[
-				122357.142857143,
-				[
-					[
-						"lyrics",
-						"trouble",
-						""
-					]
-				]
-			],
-			[
-				122542.857142857,
-				[
-					[
-						"lyrics",
-						"troublemake",
-						""
-					]
-				]
-			],
-			[
-				122785.714285714,
-				[
-					[
-						"lyrics",
+						"dnbsubs",
 						"troublemaker...",
-						""
+						"36, 0.02, 0.9"
 					]
 				]
 			],
@@ -17993,13 +17913,13 @@
 			]
 		],
 		"gameOverLoop": "gameOver-ohno",
-		"songCreditBarPath": "unfairHeading",
-		"windowName": "YOU ARE UNFAIR",
+		"songCreditBarPath": "",
+		"windowName": "",
 		"specialEventsName": "",
 		"event7": "None",
 		"needsVoices": true,
 		"stage": "youareunfair",
-		"songCredit": "MoldyGH",
+		"songCredit": "",
 		"bpm": 210
 	}
 }

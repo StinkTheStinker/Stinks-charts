@@ -20,9 +20,6 @@ function onSongStart()
 		doTweenZoom('camZoom', 'camGame', 0.7, 14)
 end
 function onStepHit()
-	if curStep == 192 then
-		doTweenAlpha('dad', 'dad', 1, 4)
-	end
 	if curStep == 240 then
 		doTweenAlpha('fadebg', 'fadebg', 0.7, 1, 'quartIn')
 		doTweenAlpha('fadewhite', 'fadewhitee', 0.4, 1, 'quartIn')

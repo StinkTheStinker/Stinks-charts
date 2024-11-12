@@ -4,6 +4,7 @@ function onCreate()
 	setProperty('vignette.alpha', 0)
 	addLuaSprite('vignette', true)
 	setObjectCamera('vignette', 'camHud')
+	setObjectOrder('vignette', 1)
 end
 
 function onStepHit()

@@ -1,44 +1,48 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('sky', 'sky', -200, 100);
-	setScrollFactor('sky', 1.2, 1.2);
-	scaleObject('sky', 1, 1);
-	addGlitchEffect('sky', 1, 4)
+	makeLuaSprite('sky', 'sky_night', -600, -200);
+	setScrollFactor('sky', 0.6, 0.6);
+	
+	makeLuaSprite('sky2', 'sky_sunset', -600, -200);
+	setScrollFactor('sky2', 0.6, 0.6);
+	setProperty('sky2.alpha', 0)
 
-	makeLuaSprite('farm/gm_flatgrass', 'farm/gm_flatgrass', 238, 0);
-	setScrollFactor('farm/gm_flatgrass', 0.6, 0.6);
-	scaleObject('farm/gm_flatgrass', 0.4, 0.4);
+	makeLuaSprite('flatgrass', 'farm/gm_flatgrass', 350, 75);
+	setScrollFactor('flatgrass', 0.65, 0.65);
+	scaleObject('flatgrass', 0.34, 0.34);
 
-	makeLuaSprite('farm/orangey hills', 'farm/orangey hills', -63, 129);
-	setScrollFactor('farm/orangey hills', 0.8, 0.8);
-	scaleObject('farm/gm_flatgrass', 0.8, 0.8);
+	makeLuaSprite('hills', 'farm/orangey hills', -173, 100);
+	setScrollFactor('hills', 0.65, 0.65);
 
-	makeLuaSprite('farm/funfarmhouse', 'farm/funfarmhouse', 86, 189);
-	setScrollFactor('farm/funfarmhouse', 0.9, 0.9);
+	makeLuaSprite('farmhouse', 'farm/funfarmhouse', 100, 125);
+	setScrollFactor('farmhouse', 0.7, 0.7);
+	scaleObject('farmhouse', 0.9, 0.9);
 
-	makeLuaSprite('farm/grass lands', 'farm/grass lands', -693, 501);
-	setScrollFactor('farm/grass lands', 1, 1);
+	makeLuaSprite('grassland', 'farm/grass lands', -600, 500);
 
-	makeLuaSprite('farm/cornFence', 'farm/cornFence', -482, 94);
-	setScrollFactor('farm/cornFence', 1, 1);
+	makeLuaSprite('cornFence', 'farm/cornFence', -400, 200);
 
-	makeLuaSprite('farm/cornFence2', 'farm/cornFence2', 1048, 107);
-	setScrollFactor('farm/cornFence2', 1, 1);
+	makeLuaSprite('cornFence2', 'farm/cornFence2', 1100, 200);
 
-	makeLuaSprite('farm/cornbag', 'farm/cornbag', 1166, 448);
-	setScrollFactor('farm/cornbag', 1, 1);
+	makeLuaSprite('cornbag', 'farm/cornbag', 1200, 550);
 
-	makeLuaSprite('farm/sign', 'farm/sign', 283, 226);
-	setScrollFactor('farm/sign', 1, 1);
+	makeLuaSprite('sign', 'farm/sign', 0, 350);
 
+	makeLuaSprite('dark', 'blackscreen', -430, -300);
+	scaleObject('dark', 12, 12);
+	setScrollFactor('dark', 'camHud');
+	setProperty('dark.alpha', 0.65)
+	
 	addLuaSprite('sky', false);
-	addLuaSprite('farm/gm_flatgrass', false);
-	addLuaSprite('farm/orangey hills', false);
-	addLuaSprite('farm/funfarmhouse', false);
-	addLuaSprite('farm/grass lands', false);
-	addLuaSprite('farm/cornFence', false);
-	addLuaSprite('farm/cornFence2', false);
-	addLuaSprite('farm/cornbag', false);
-	addLuaSprite('farm/sign', false);
-
+	addLuaSprite('sky2', false);
+	addLuaSprite('flatgrass', false);
+	addLuaSprite('hills', false);
+	addLuaSprite('farmhouse', false);
+	addLuaSprite('grassland', false);
+	addLuaSprite('cornFence', false);
+	addLuaSprite('cornFence2', false);
+	addLuaSprite('cornbag', false);
+	addLuaSprite('sign', false);
+	addLuaSprite('dark', true);
+	
 end

@@ -12,7 +12,7 @@ function onSongStart()
 end
 function onUpdate()
 	if curStep == 128 then
-		setProperty('cameraSpeed', 2)
+		setProperty('cameraSpeed', 1)
 	end
 	if curStep == 118 then
 		doTweenX('dadX', 'dad', 100, 4, 'quartOut')

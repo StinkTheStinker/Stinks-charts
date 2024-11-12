@@ -49,12 +49,39 @@
 			]
 		],
 		[
-			"Algebra_Diamond_Man_Section",
-			"Diamond",
+			"Disability",
+			"disabilityDave",
 			[
 				0,
-				80,
-				235
+				0,
+				255
+			]
+		],
+		[
+			"Algebra_Diamond_Man_Section",
+			"diamond",
+			[
+				0,
+				133,
+				253
+			]
+		],
+		[
+			"Splitathon",
+			"the two people",
+			[
+				0,
+				75,
+				175
+			]
+		],
+		[
+			"Mealie",
+			"loser",
+			[
+				0,
+				235,
+				60
 			]
 		]
 	],

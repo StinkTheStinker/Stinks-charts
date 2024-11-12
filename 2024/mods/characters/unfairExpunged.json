@@ -2,58 +2,58 @@
 	"animations": [
 		{
 			"offsets": [
-				0,
-				-10
-			],
-			"loop": false,
-			"fps": 12,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
-		},
-		{
-			"loop": false,
-			"offsets": [
 				-210,
 				-30
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				89,
 				-20
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 12,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				0,
+				-10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				-10,
 				-30
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -66,7 +66,7 @@
 	"image": "characters/expunged/unfair_bambi",
 	"shake_duration": 0.01,
 	"position": [
-		-110,
+		-40,
 		130
 	],
 	"health_drain": true,
@@ -82,10 +82,10 @@
 	],
 	"drain_amount": 0.0005,
 	"camera_position": [
-		-100,
+		0,
 		-120
 	],
-	"sing_duration": 5.5,
+	"sing_duration": 3.4,
 	"noteskin": null,
 	"winning_colors": [
 		177,

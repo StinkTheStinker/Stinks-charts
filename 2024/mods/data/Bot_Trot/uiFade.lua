@@ -3,23 +3,24 @@
 --also, if you want to use this script im fine with it
 
 function onCreate()
-	makeLuaSprite('fade', image, -500, -500)
+	makeLuaSprite('fade', image, -700, -500)
 	makeGraphic('fade', 3000, 3000, '000000')
 	setProperty('fade.alpha', 0)
 	addLuaSprite('fade', true)
 	setObjectCamera('fade', 'camGame')
-	makeLuaSprite('whitefade', image, -500, -500)
+	makeLuaSprite('whitefade', image, -700, -500)
 	makeGraphic('whitefade', 3000, 3000, 'FFFFFF')
 	setProperty('whitefade.alpha', 0)
 	addLuaSprite('whitefade', true)
 	setObjectCamera('whitefade', 'camHud')
-	makeLuaSprite('startfade', image, -500, -500)
+	makeLuaSprite('startfade', image, -700, -500)
 	makeGraphic('startfade', 3000, 3000, '000000')
 	setProperty('startfade.alpha', 1)
 	addLuaSprite('startfade', true)
 	setObjectCamera('startfade', 'camHud')
-	setProperty('Tristan.alpha', 0)
+	--setProperty('Tristan.alpha', 0)
 	setProperty('Tristan2.alpha', 0)
+	doTweenZoom('yeah', 'camGame', 0.75, 0.01, 'linear')
 	noteTweenAlpha('dadStrum', 0, 0, 0.01, 'linear')
 	noteTweenAlpha('dadStrum1', 1, 0, 0.01, 'linear')
 	noteTweenAlpha('dadStrum2', 2, 0, 0.01, 'linear')
@@ -41,6 +42,7 @@ function onSongStart()
 	noteTweenAlpha('bfStrum2', 6, 0, 0.01, 'linear')
 	noteTweenAlpha('bfStrum3', 7, 0, 0.01, 'linear')
 	addBloomEffect('camGame',1,1)
+	doTweenZoom('yeah', 'camGame', 0.82, 16.89, 'linear')
 end
 
 
@@ -101,7 +103,9 @@ function onStepHit()
 	end
 	
 	if curStep == 1664 then
-		addBloomShader('camGame',1,1)
+		addChromaticAberrationEffect('camGame', 0.005)
+		addChromaticAberrationEffect('camHud', 0.005)
+		addBloomEffect('camGame',1,1)
 		setProperty('Tristan.alpha', 0)
 		setProperty('Tristan2.alpha', 1)
 		doTweenAlpha('fade', 'fade', 0, 21.62, 'linear')

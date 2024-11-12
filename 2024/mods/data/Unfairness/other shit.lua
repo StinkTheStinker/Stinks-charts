@@ -1,20 +1,17 @@
 function onStepHit()
     health = getProperty('health')
     if getProperty('health') > 0.04 then
-        setProperty('health', health- 0.0005);
+        setProperty('health', health- 0.01);
     end
 
-	if curStep == 184 then
-		setProperty('cameraSpeed', 0.2)
-	end
-
 	if curStep == 256 then
-		setProperty('cameraSpeed', 3)
+		setProperty('cameraSpeed', 1)
+		doTweenColor('dad', 'dad', '878787', 0.01)
 	end
 end
 
 function onCreate()
-	makeLuaText('watermark', "Ghost tapping is forced off! Fuck you!", 0, 20, 140);
+	makeLuaText('watermark', "Ghost tapping is forced off! Fuck you!", 0, 4, 695);
 		setTextSize('watermark', 16);
 		addLuaText('watermark');
 

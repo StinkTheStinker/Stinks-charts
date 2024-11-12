@@ -7,5 +7,5 @@
 	"girlfriend": [400, -100],
 	"opponent": [50, 0],
 	"hide_girlfriend": true,
-	"camera_speed": 2
+	"camera_speed": 1
 }

@@ -20,7 +20,7 @@ function onUpdate(elapsed)
 
     local currentBeat = (songPos/500)*(bpm/80)
 
-    doTweenY(dadTweenY, 'dad', 20-20*math.sin((currentBeat*0.1)*math.pi),0.001)
+    doTweenY(dadTweenY, 'dad', 100-20*math.sin((currentBeat*0.1)*math.pi),0.001)
 	
   end
 

@@ -66,8 +66,8 @@
 	"image": "characters/playbot",
 	"shake_duration": 0,
 	"position": [
-		-10,
-		220
+		-100,
+		150
 	],
 	"health_drain": false,
 	"shake_intensity": 0,
@@ -82,11 +82,11 @@
 	],
 	"drain_amount": 0.02,
 	"camera_position": [
-		0,
+		-100,
 		0
 	],
 	"sing_duration": 6.1,
-	"noteskin": "noteskins/NOTE_assets",
+	"noteskin": null,
 	"winning_colors": [
 		255,
 		255,

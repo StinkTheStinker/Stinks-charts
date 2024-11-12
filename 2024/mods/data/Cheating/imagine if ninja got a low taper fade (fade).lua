@@ -36,7 +36,7 @@ function onUpdate()
 		cameraFade('game', 'FFFFFF', 2, true, true) -- fade oout
 	end
 	if curStep == 1956 then
-		cameraFade('game', '000000', 5, true, false)
+		cameraFade('game', '000000', 3, true, false)
 	end
 	if curStep == 2060 then
 		doTweenAlpha('bg2', 'Expunged/cheater2', 1, 0.01)
